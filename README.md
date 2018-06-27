@@ -17,7 +17,7 @@ The whole functionality was implemented into the file ‘advanced_lane_lines.MAS
 For camera calibration, function ‘get_cameracalib’ [l. 12 - 83] was defined. Its purpose is to enable analysis of the calibration and of the pictures and to investigate different calibration methodologies. It includes an optional print out for extended analysis like the following:
 
 <p align="center">
-<img src="output_images/camera_calibration_pic_coll_ave.PNG" height=500 />
+<img src="output_images/camera_calibration_pic_coll_ave.png" height=500 />
 </p>
 
 The function ‘get_cameracalib’ gets the path of the directory where the files for calibration are. It gives back the camera matrix `mst` and camera distortion `dist`.
